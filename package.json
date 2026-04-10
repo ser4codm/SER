@@ -14,7 +14,8 @@
     "lucide-react": "^0.344.0",
     "framer-motion": "^11.0.8",
     "clsx": "^2.1.0",
-    "tailwind-merge": "^2.2.1"
+    "tailwind-merge": "^2.2.1",
+    "wouter": "^3.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
@@ -27,3 +28,4 @@
     "vite": "^5.1.4"
   }
 }
+
