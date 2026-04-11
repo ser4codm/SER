@@ -1,12 +1,12 @@
 import { Switch, Route, Router as WouterRouter } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import Home from "./Home";
-import Search from "./Search";
-import Watchlist from "./Watchlist";
-import Recent from "./Recent";
-import TVDetails from "./Details";
+import Home from "./pages/Home";
+import Search from "./pages/Search";
+import Watchlist from "./pages/Watchlist";
+import Recent from "./pages/Recent";
+import TVDetails from "./pages/Details";
 import CinemaPlayer from "./CinemaPlayer"; 
-import NotFound from "./not-found";
+import NotFound from "./pages/not-found";
 
 const queryClient = new QueryClient({
   defaultOptions: {
