@@ -29,7 +29,6 @@ function Router() {
       <Route path="/watchlist" component={Watchlist} />
       <Route path="/recent" component={Recent} />
       <Route path="/tv/:id" component={TVDetails} />
-      {/* ركز هنا يا بطل، الحين ربطنا المشغل اللي رفعناه بالروابط صح */}
       <Route path="/play/movie/:id" component={CinemaPlayer} />
       <Route path="/play/tv/:id/:season/:episode" component={CinemaPlayer} />
       <Route component={NotFound} />
