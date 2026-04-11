@@ -5,7 +5,7 @@ import Search from "./pages/Search";
 import Watchlist from "./pages/Watchlist";
 import Recent from "./pages/Recent";
 import TVDetails from "./pages/Details";
-import CinemaPlayer from "./pages/CinemaPlayer"; 
+import CinemaPlayer from "./CinemaPlayer"; 
 import NotFound from "./pages/not-found";
 
 const queryClient = new QueryClient({
