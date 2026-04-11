@@ -1,12 +1,12 @@
 import { Switch, Route, Router as WouterRouter } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import Home from "./pages/Home";
-import Search from "./pages/Search";
-import Watchlist from "./pages/Watchlist";
-import Recent from "./pages/Recent";
-import TVDetails from "./pages/Details";
-import CinemaPlayer from "./CinemaPlayer"; 
-import NotFound from "./pages/not-found";
+import Home from "./pages/Home.tsx";
+import Search from "./pages/Search.tsx";
+import Watchlist from "./pages/Watchlist.tsx";
+import Recent from "./pages/Recent.tsx";
+import TVDetails from "./pages/Details.tsx";
+import CinemaPlayer from "./CinemaPlayer.tsx"; 
+import NotFound from "./pages/not-found.tsx";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -34,7 +34,7 @@ function Router() {
   );
 }
 
-function App() {
+export default function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <WouterRouter base={""}>
@@ -43,5 +43,3 @@ function App() {
     </QueryClientProvider>
   );
 }
-
-export default App;
